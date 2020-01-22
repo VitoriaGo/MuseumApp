@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.17.3/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Unknown system error -122: Unknown system error -122, mkdir '/home/runner/MuseumApp/node_modules/babel-preset-react-app/node_modules/@babel/plugin-transform-dotall-regex/node_modules/@babel/core/lib/gensync-utils'
+
+npm manifest: 
+  {
+    "name": "runner",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.9.0",
+      "react-dom": "^16.9.0",
+      "react-scripts": "2.1.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
